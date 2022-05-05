@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="my.css">
@@ -65,7 +64,7 @@
                 </div>
                 </div>
                 <!-- постЛист класс для хранения карточек -->
-                <div class ="postList">
+                <div id="postList" class ="postList">
                     <div class = "card-white" onclick="document.location='jojopage.html'">
                         <div class = "card-header">
                             <div class="postAuthor">
@@ -73,8 +72,8 @@
                                     <img src="image/1033987a4643f269a493b70810105657.jpg" alt="avatar">
                                 </span>
                                 <div>
-                                    <div>pinky pink</div>
-                                    <div class="postAuthor__subTitle">ДжотароКуджо</div>
+                                    <div id = "userName" class="postAuthor__userName">userName</div>
+                                    <div id = "subTitle" class="postAuthor__subTitle">subTitle</div>
                                 </div>
                             </div>
                             <div class="cardContent curPointer">
@@ -110,4 +109,5 @@
         </div>
     </footer>
 </body>
+<script src="main.js"></script>
 </html>
